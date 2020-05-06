@@ -3,7 +3,8 @@ Graduation thesis of undergraduates of School of Software, Jilin University（�
 
 
 # 注意
-1. 本人实测环境：texlive2019环境+texstudio软件可编译;原来使用CTEX环境+texstudio/WinEdt均不可；
+1. 本人实测环境：texlive2019环境+texstudio软件可编译;
+原来使用CTEX环境+texstudio/WinEdt均不可（该链接不可（https://tieba.baidu.com/p/5961449411?red_tag=3488765975））；
 
 tex软件还可对VSCode进行配置运行（本人未尝试过）
 
@@ -15,17 +16,18 @@ tex软件还可对VSCode进行配置运行（本人未尝试过）
 
 ③英文摘要：同上；
 
-	另外修改“Abstract”为三号字（计算机学院上是三号字，但是说明是小三号，sty文件中原始为小三（xiaosan））；
+另外修改“Abstract”为三号字（计算机学院上是三号字，但是说明是小三号，sty文件中原始为小三（xiaosan））；
 
-	另外在etitle和“Abstract”之间加入了以下代码，来使作者和导师的英文名居右显示
-  \begin{flushright}
-    \sanhao\noindent \@eauthor
-  \end{flushright}
-  \vspace{1em}
-  \begin{flushright}
-    \sanhao\noindent \@esupervisor
-  \end{flushright}
-  \vspace{1em}
+另外在etitle和“Abstract”之间加入了以下代码，来使作者和导师的英文名居右显示
+
+	\begin{flushright}
+	\sanhao\noindent \@eauthor
+	\end{flushright}
+	\vspace{1em}
+	\begin{flushright}
+	\sanhao\noindent \@esupervisor
+	\end{flushright}
+	\vspace{1em}
 
 3. 效果见PDF文件
 4. 使用方法参考[JLU-CCST-Thesis](https://github.com/x86vk/JLU-CCST-Thesis),感谢学长的付出。
